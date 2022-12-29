@@ -1,9 +1,50 @@
+a {
+  color: #000000;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background: #000;
+height: 220px;
+color: #FFFFFF;
+text-align: center;
+line-height: 220px;
+font-family: Impact;
+text-transform: uppercase;
+font-size: 100px;
+font-style: italic;
+}
+
+.fit-picture {
+  clip: rect(100px 800px 280px 550px);
+  position: absolute;
+  top: -100px;
+  left: -500px;
+}
 .grostitre{
   text-align: center;
 font-family: "Impact";
 font-size: 100px;
 color: #44444;
 }
-p{
-  font-family:"Arial";
+.article-texte {
+  font-family: "Helvetica Neue", Helvetica;
+  font-size: 18px;
+  margin-left: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  margin: auto;
+  width: 1000px;
+}
+.article-titre {
+  font-family: "Impact";
+  text-transform: uppercase;
+  letter-spacing : 1px;
+  font-size: 45px;
+  margin-left: 20px;
+  margin: 30px auto;
+  width: 1000px;
 }
